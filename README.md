@@ -5,5 +5,5 @@ youhoo
 
 LETS pllay dumm
 
-y
+yes
 lets make a code
