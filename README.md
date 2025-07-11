@@ -8,3 +8,8 @@ favorite pet:cat
 favorite color:pink
 
 can you tell me about yourself?
+
+lets make a code
+yes
+
+no
