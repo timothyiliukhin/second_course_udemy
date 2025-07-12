@@ -1,13 +1,18 @@
 # second_course_udemy
 
-hello liel
-youhoo
+Name:Liel
 
-LETS pllay dumm
+im 9 years old
+ hight:134cm
+favorite pet:cat
+favorite color:pink
 
+can you tell me about yourself?
 
 lets make a code
 yes
 
 no
-hi
+
+ yes
+
