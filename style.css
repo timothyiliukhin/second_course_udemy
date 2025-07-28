@@ -1,10 +1,18 @@
- h1, h2, h3, h4, p, li {
+ h1,
+ h2,
+ h3,
+ h4,
+p, li {
    font-family: sans-serif;
+   color: #444
  }
 
+
+h1, h2, h3 {
+   color:  #1098ad;
+}
+  
  h1 {
-   font-size: 26px;
-   font-family: sans-serif;
    text-transform: uppercase;
    font-style: italic;
 }
@@ -12,11 +20,13 @@
 h2 {
   font-size: 40px;
   font-family: sans-serif;
+  
 }
 
 h3 {
    font-size: 30px;
    font-family: sans-serif;
+   
 }
 
 h4 {
@@ -43,7 +53,7 @@ footer p {
    font-style: italic;
 }
 
-/* article header p {
+ article header p {
    font-style: italic;
 }*/
 
@@ -56,3 +66,69 @@ footer p {
         font-size: 16px;
  }
  
+ .related-author {
+   font-size: 18px;
+   font-weight: bold;
+ }
+ 
+ /*ul {
+   list-style: none;
+ }*/
+
+ .related {
+   list-style: none;
+ }
+
+.main-header {
+   background-color: #f7f7f7;
+   border: 0px solid red;
+ }
+ aside {
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+ }
+
+ body {
+   /*background-color: orangered; */
+ }
+
+ .first-li {
+   font-weight: bold;
+}
+*/
+
+li:first-child {
+   font-weight: bold;
+}
+
+li:last-child {
+   font-style: italic;
+}
+
+li:nth-child(even){ 
+   /*color: red;*/
+}
+
+/* Misconeption: this won't work!*/
+
+article p:last-child {
+   color: red;
+}
+
+/* Styling links*/
+a:link {
+   color:  #1098ad;
+   text-decoration: none;
+}
+
+a:visited {
+   /* color: #777; */
+   color: #1098ad
+}
+
+a:hover {
+   color: orangered;
+   font-weight: bold;
+   text-decoration: underline  orangered;
+}
