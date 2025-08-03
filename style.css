@@ -1,10 +1,35 @@
+
+* {
+   /*border-top: 10px solid #1098ad;*/
+}
+
+body {
+   color: #444;
+   font-family: sans-serif;
+
+   border-top: 10px solid #1098ad;
+}
+.main-header {
+   background-color: #f7f7f7;
+   /*padding: 20px;
+   padding-left: 40px;
+   padding-right: 40px;*/
+   padding: 20px 40px;
+ }
+ aside {
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+ }
+
  h1,
  h2,
  h3,
- h4,
-p, li {
-   font-family: sans-serif;
-   color: #444
+
+p,
+
+li {
+   /* color: #444 */
  }
 
 
@@ -33,7 +58,6 @@ h4 {
    font-size: 20px;
    text-transform: uppercase;
    text-align: center;
-   text-align: center;
    }
 p {
   font-size: 22px;
@@ -42,7 +66,8 @@ p {
 }
 
 li {
-   font-size: 20px;
+   font-size: 20px
+   margin-bottom:10
 }
 
 footer p {
@@ -79,15 +104,7 @@ footer p {
    list-style: none;
  }
 
-.main-header {
-   background-color: #f7f7f7;
-   border: 0px solid red;
- }
- aside {
-    background-color: #f7f7f7;
-    border-top: 5px solid #1098ad;
-    border-bottom: 5px solid #1098ad;
- }
+
 
  body {
    /*background-color: orangered; */
@@ -132,3 +149,38 @@ a:hover {
    font-weight: bold;
    text-decoration: underline  orangered;
 }
+
+a:active {
+    background-color: black;
+    font-style: italic;
+}
+
+/* LVHA */
+
+/* Resolving conflicts */
+#copyright {
+   color: red;
+}
+
+/*.copyright {
+   color: blue;
+}
+
+.text {
+   color: yellow;
+}
+
+fotter p {
+   color: green !important;
+}*/
+
+/*nav a:link,
+nav p {
+   font-size: 18px;
+}*/
+
+nav {
+   font-size: 18px;
+}
+  
+
