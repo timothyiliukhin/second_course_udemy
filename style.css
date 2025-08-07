@@ -215,7 +215,10 @@ nav a:link {
    margin-right: 30px;
    margin-top: 10px;
    display: inline-block;
+   text-align: center;
 }
+
+
 
 nav a:link:last-child {
    margin-right: 0;
@@ -247,15 +250,16 @@ h3 + p::first-line {
    position: relative;
  }
 
- h2::after {
+ h2::before {
    content: "TOP";
    background-color: #ffe70e;
+   color: #444;
    font-size: 16px;
    font-weight: bold;
    display: inline-block;
    padding: 5px 10px;
    position: absolute;
-   top: -15px;
+   top: -10px;
    right: -25px;
  }
 
