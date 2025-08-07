@@ -234,8 +234,7 @@ button {
 }
 
  h1::first-letter {
-   font-style: normal;
-   margin-right: 5px;
+   
  }
 
 
@@ -255,8 +254,8 @@ h3 + p::first-line {
    display: inline-block;
    padding: 5px 10;
    position: absolute;
-   top: -15;
-   right: -25;
+   top: -15px;
+   right: -25px;
  }
 
 /* Resolving conflicts */
