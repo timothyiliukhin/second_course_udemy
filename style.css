@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-   width: 800px;
+   width: 1200px;
  /*  margin-left: auto;
    margin-right: auto;*/
    margin: 0 auto;
@@ -27,14 +27,13 @@ body {
 
 .main-header {
    background-color: #f7f7f7;
-   background-color: red;
    /*padding: 20px;
    padding-left: 40px;
    padding-right: 40px;*/
    padding: 20px 40px;
    margin-bottom: 60px;
    /* height: 80px; */
- }
+}
 
  nav {
    font-size: 18px;
@@ -111,6 +110,15 @@ ul,ol {
    /* display: inline; */
 }
 
+
+
+
+aside {
+   border-top: 5px solid #1098ad;
+   border-bottom: 5px solid #1098ad;
+   background-color: #f7f7f7;
+}
+
 li {
    font-size: 20px;
    margin-bottom: 10;
@@ -159,7 +167,7 @@ footer p {
  .first-li {
    font-weight: bold;
 }
-*/
+
 
 li:first-child {
    font-weight: bold;
@@ -175,9 +183,9 @@ li:nth-child(even){
 
 /* Misconeption: this won't work!*/
 
-article p:last-child {
+/* article p:last-child {
    color: red;
-}
+} */
 
 /* Styling links*/
 a:link {
@@ -265,7 +273,7 @@ h3 + p::first-line {
  }
 
 .main-header nav a {
-   margin-top: 100;
+   margin-top: 1px;
 }
 
 /* Resolving conflicts */
@@ -326,4 +334,18 @@ nav {
   clear: both;
   content: '';
   display: block;
+}
+
+article {
+   width: 825px;
+   float: left;
+}
+
+aside {
+   width: 300px;
+   float: right;
+}
+
+footer {
+   clear: both;
 }
