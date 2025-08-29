@@ -2,7 +2,8 @@
 * {
    /*border-top: 10px solid #1098ad;*/
    margin: 0;
-   padding:0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 
@@ -39,6 +40,10 @@ body {
    font-size: 18px;
    text-align: center;
    }
+
+.main-header nav {
+   margin-top: 10px
+}
  
 
  article {
@@ -117,6 +122,8 @@ aside {
    border-top: 5px solid #1098ad;
    border-bottom: 5px solid #1098ad;
    background-color: #f7f7f7;
+   padding: 50px 40px;
+   box-sizing: border-box;
 }
 
 li {
@@ -156,6 +163,7 @@ footer p {
 
  .related {
    list-style: none;
+   margin-left: 0;
  }
 
 
@@ -348,4 +356,42 @@ aside {
 
 footer {
    clear: both;
+}
+
+.main-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.author-box {
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+}
+
+.author {
+   margin-bottom: 0;
+   margin-left: 15px;
+}
+
+.related-post {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.related-link:link {
+   font-size: 17px;
+   font-weight: bold;
+   font-style: normal;
+   margin-bottom: 5px;
+   display: block;
+}
+
+.related-author {
+   margin-bottom: 0;
+   font-size: 14px;
+   font-weight: normal;
+   font-style: italic;
 }
